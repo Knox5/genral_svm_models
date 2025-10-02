@@ -1,11 +1,11 @@
-##decision tree calsifier
+##decision tree classifier
 
 import pandas as pd
 
 data = pd.read_csv('tres.csv')
 data
 data.shape
-#independent n dependt variable 
+#independent n dependent variable 
 x=pd.DataFrame(data[['sepal_length','sepal_width','petal_length','petal_width']])
 y=data['species']
 type(x)
