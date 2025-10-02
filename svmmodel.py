@@ -1,3 +1,4 @@
+#learning about SVM model
 # demostration of svm calssifier
 import pandas as pd
 import tensorflow as tf 
