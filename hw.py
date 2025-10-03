@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as nm
 
-# Replace 'your_file.csv' with the path to your CSV file
+
 df= pd.read_csv('Social_Network_Ads.csv')
 X = df.iloc[:, :-1]
 y = df.iloc[:, -1]
